@@ -46,17 +46,18 @@
 	<talkaction words="/removetutor" separator=" " script="remove_tutor.lua" />
 
 	<!-- player talkactions -->
-	<talkaction words="!buypremium" script="buyprem.lua" />
 	<talkaction words="!buyhouse" script="buyhouse.lua" />
 	<talkaction words="!leavehouse" script="leavehouse.lua" />
-	<talkaction words="!changesex" script="changesex.lua" />
-	<talkaction words="!uptime" script="uptime.lua" />
+    <talkaction words="!uptime" script="uptime.lua" />
 	<talkaction words="!deathlist" script="deathlist.lua" />
 	<talkaction words="!kills" script="kills.lua" />
-	<talkaction words="!online" script="online.lua" />
-	<talkaction words="!serverinfo" script="serverinfo.lua" />
-	<talkaction words="!addon" script="addon.lua" />
+    <talkaction words="!serverinfo" script="serverinfo.lua" />
+	<talkaction words="!addon" separator=" " script="addon.lua" />
 
+	<!-- Cast System -->
+	<talkaction words="!cast on" separator=" " script="start_cast.lua" />
+    <talkaction words="!cast off" script="stop_cast.lua" />
+	
 	<!-- test talkactions -->
 	<talkaction words="!z" separator=" " script="magiceffect.lua" />
 	<talkaction words="!x" separator=" " script="animationeffect.lua" />
