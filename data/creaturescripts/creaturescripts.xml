@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
-	<!-- Rookgaard Cockroach -->
-	<event type="kill" name="TutorialCockroach" script="rookgaard/killCockroach.lua" />
-	<event type="advance" name="AdvanceRookgaard" script="rookgaard/advance.lua" />
 
 	<!-- Elemental Spheres Quest -->
 	<event type="kill" name="ElementalSpheresOverlords" script="quests/elemental spheres/OverlordsKill.lua" />
@@ -51,15 +48,41 @@
 	<!-- Pythius The Rotten (Firewalker Boots Quest) -->
 	<event type="kill" name="PythiusTheRotten" script="others/PythiusTheRotten.lua" />
 
+	<!-- Ascendent Ferumbras Quest -->
+	<event type="kill" name="AscedentFerumbrasQuest" script="quests/Ferumbras.lua" />
+
+	<!-- Bosses -->
+	<event type="death" name="wyda" script="bosses/wyda.lua"/>
+   	<event type="death" name="white deer" script="bosses/white deer.lua"/>
+   	<event type="death" name="white deer2" script="bosses/white deer2.lua"/>
+	<event type="death" name="northern pike" script="bosses/northern pike.lua"/>
+	<event type="think" name="Gaz'haragoth heal" script="bosses/gaz'haragoth heal.lua"/>
+	<event type="think" name="omrafir explode" script="bosses/omrafir explode.lua"/>
+   	<event type="think" name="shlorg tp" script="bosses/shlorg tp.lua"/>
+   	<event type="think" name="welter egg" script="bosses/welter egg.lua"/>
+   	<event type="think" name="the pale count tp" script="bosses/the pale count tp.lua"/>
+    <event type="think" name="zavarash hide" script="bosses/zavarash hide.lua"/>
+    <event type="preparedeath" name="monster heal" script="bosses/monster heal.lua"/>
+    <event type="preparedeath" name="monster heal2" script="bosses/monster heal2.lua"/>
+
+    <event type="kill" name="AncedentTarbaz" script="others/Tarbaz.lua" />
+	<event type="kill" name="AncedentShulgrax" script="others/Shulgrax.lua" />
+	<event type="kill" name="AncedentPlagirath" script="others/Plagirath.lua" />
+	<event type="kill" name="AncedentZamulosh" script="others/Zamulosh.lua" />
+	<event type="kill" name="AncedentMazoran" script="others/Mazoran.lua" />
+	<event type="kill" name="AncedentRazzagorn" script="others/Razzagorn.lua" />
+	<event type="kill" name="AncedentRagiaz" script="others/Ragiaz.lua" />
+	<event type="kill" name="AncedentFerumbras" script="others/Ferumbras.lua" />
+
 	<!-- Others -->
+	 <event type="advance" name="VocReward" event="script" value="others/vocreward.lua" />
+	 <event type="login" name="freebless" script="others/freeblesslowlevel.lua"/>
 	<event type="login" name="PlayerLogin" script="others/login.lua" />
 	<event type="login" name="FirstItems" script="others/firstitems.lua" />
 	<event type="login" name="RegenerateStamina" script="others/regeneratestamina.lua" />
 	<event type="login" name="OfflineTraining" script="others/offlinetraining.lua" />
-
 	<event type="logout" name="PlayerLogout" script="others/logout.lua" />
-
-	<event type="death" name="PlayerDeath" script="others/playerdeath.lua" />
+    <event type="death" name="PlayerDeath" script="others/playerdeath.lua" />
 	<event type="death" name="DropLoot" script="others/droploot.lua" />
 	<event type="advance" name="AdvanceSave" script="others/advance_save.lua" />
 	<event type="death" name="WhiteDeerDeath" script="others/whitedeer.lua" />

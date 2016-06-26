@@ -26,4 +26,7 @@
 	<globalevent name="BossSystem" interval="3600000" script="spawn/BossSpawn.lua" />
 	<globalevent type="startup" name="RashidSpawn" script="spawn/RashidSpawn.lua" />
 	<globalevent type="startup" name="CilliaSpawn" script="spawn/CilliaSpawn.lua" />
+	<globalevent type="startup" name="TanjisSpawn" script="spawn/tanjis.lua"/>
+	<globalevent type="startup" name="ObujosSpawn" script="spawn/obujos.lua"/>
+	<globalevent type="startup" name="JaulSpawn" script="spawn/jaul.lua"/>
 </globalevents>
