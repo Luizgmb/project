@@ -9,5 +9,10 @@
 	- Yakchal Introduced
 	- Jaul, Tanjis and Obujus Introduced - Need test and adjust time
 	- New Potions (10.92) 
-        - Removed useless Rookguard Scripts
+        - Removed useless Rookguard scripts
         - Fixed some taming items missed
+        - Guild Chat Channel Introduced
+        - Removed more useless Rookguard scripts
+        - Vocation Reward Introduced
+        - Ferumbras Ascendant Quest Bosses Introduced - Need Test
+        - Fixed a lot of corpses and items in items.xml
