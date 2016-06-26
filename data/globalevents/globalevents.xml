@@ -20,6 +20,7 @@
 	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
 	<globalevent type="record" name="PlayerRecord" script="record.lua" />
 	<globalevent name="ServerSave" time="09:55:00" script="serversave.lua" />
+	<globalevent name="DDOS" type="startup" script="ddos.lua" />
 
 	<!-- Spawn -->
 	<globalevent name="RaidSystem" interval="10000" script="spawn/raids.lua" />
