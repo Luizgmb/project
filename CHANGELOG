@@ -1,18 +1,26 @@
 
-0.1 - Working on map
+0.1 - Reworked all scripts - need run tests in reward chest
+    - Utori kor need weapon now
+    - Items.otb official 10.95
+    - Updated items.xml 
+    - Added some missing npcs
+    - Fixed teleport with pz
+    - Added 10.90+ Monsters
+    - Still missing 10.94 monsters 
+    - Cast talkaction working
+    - New 10.94 Mounts and Addons introduced
+    - Cast introduced and working 100%
+    - Voc Reward for level advances 
+    - Guild Leader Chat
+    - New potions 10.92
+    
+    
+    
+    
+    Missing map areas - Arena, Nightmare Island, Glooth Factory Underground, Edron New Hero Cave, Otherworld,
+    Roshamuul Right side, Noble Lion Hunt, Wereboar Hunt, Krailos, 
+    
+    
+    
 
-	- Arena Introduced
-	- Melee break is introduced - Missing some weapons id
-	- Roshamuul Prision Keys - Need Test
-	- Mount Ursagrodon - Need Test
-	- Oramond Teleport and Roots introduced
-	- Yakchal Introduced
-	- Jaul, Tanjis and Obujus Introduced - Need test and adjust time
-	- New Potions (10.92) 
-        - Removed useless Rookguard scripts
-        - Fixed some taming items missed
-        - Guild Chat Channel Introduced
-        - Removed more useless Rookguard scripts
-        - Vocation Reward Introduced
-        - Ferumbras Ascendant Quest Bosses Introduced - Need Test
-        - Fixed a lot of corpses and items in items.xml
+    
